@@ -1,0 +1,6 @@
+{
+  "name": "C64 Space Invaders Assembly Studio",
+  "description": "Gioco in Assembly 6502 per Commodore 64 con grafica sprite VIC-II, suoni SID, simulatore giocabile, codice sorgente modulare commentato e download .PRG.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
