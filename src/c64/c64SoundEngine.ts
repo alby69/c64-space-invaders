@@ -75,6 +75,7 @@ class C64SoundEngine {
 
   public setMuted(muted: boolean) {
     this.isMuted = muted;
+    this.registers.masterVol = muted ? '$00 (MUTED)' : '$0F (15/15)';
     if (this.masterGain && this.ctx) {
       this.masterGain.gain.setValueAtTime(muted ? 0 : 0.35, this.ctx.currentTime);
     }
